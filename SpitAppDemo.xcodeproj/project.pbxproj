@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		76B89EB82755F3FE00B2A4D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EB72755F3FE00B2A4D6 /* AppDelegate.swift */; };
 		76B89EBA2755F3FE00B2A4D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EB92755F3FE00B2A4D6 /* SceneDelegate.swift */; };
-		76B89EBC2755F3FE00B2A4D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EBB2755F3FE00B2A4D6 /* ViewController.swift */; };
+		76B89EBC2755F3FE00B2A4D6 /* AllTransectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EBB2755F3FE00B2A4D6 /* AllTransectionVC.swift */; };
 		76B89EBF2755F3FE00B2A4D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B89EBD2755F3FE00B2A4D6 /* Main.storyboard */; };
 		76B89EC22755F3FE00B2A4D6 /* SpitAppDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EC02755F3FE00B2A4D6 /* SpitAppDemo.xcdatamodeld */; };
 		76B89EC42755F3FF00B2A4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B89EC32755F3FF00B2A4D6 /* Assets.xcassets */; };
@@ -17,6 +17,23 @@
 		76B89ED22755F3FF00B2A4D6 /* SpitAppDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89ED12755F3FF00B2A4D6 /* SpitAppDemoTests.swift */; };
 		76B89EDC2755F3FF00B2A4D6 /* SpitAppDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EDB2755F3FF00B2A4D6 /* SpitAppDemoUITests.swift */; };
 		76B89EDE2755F3FF00B2A4D6 /* SpitAppDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EDD2755F3FF00B2A4D6 /* SpitAppDemoUITestsLaunchTests.swift */; };
+		76B89EED2755F51800B2A4D6 /* AllTransectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EEC2755F51800B2A4D6 /* AllTransectionViewModel.swift */; };
+		76B89EF12755F57700B2A4D6 /* AddTransactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EF02755F57700B2A4D6 /* AddTransactionVC.swift */; };
+		76B89EF32755F59500B2A4D6 /* AddTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EF22755F59500B2A4D6 /* AddTransactionViewModel.swift */; };
+		76B89EF52755F87C00B2A4D6 /* UserTransection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EF42755F87C00B2A4D6 /* UserTransection.swift */; };
+		76B89EFA2755F8FE00B2A4D6 /* UserTransectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EF92755F8FE00B2A4D6 /* UserTransectionModel.swift */; };
+		76B89EFC2755F95D00B2A4D6 /* AllTransectionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EFB2755F95D00B2A4D6 /* AllTransectionVM.swift */; };
+		76B89EFE2755F9A700B2A4D6 /* SlipTransectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EFD2755F9A700B2A4D6 /* SlipTransectionManager.swift */; };
+		76B89F002755FF9B00B2A4D6 /* AddTransectionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89EFF2755FF9B00B2A4D6 /* AddTransectionVM.swift */; };
+		76B89F032756016400B2A4D6 /* AddTransectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89F012756016400B2A4D6 /* AddTransectionCell.swift */; };
+		76B89F042756016400B2A4D6 /* AddTransectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B89F022756016400B2A4D6 /* AddTransectionCell.xib */; };
+		76B89F0727560B4800B2A4D6 /* AllTranseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89F0627560B4800B2A4D6 /* AllTranseCell.swift */; };
+		76B89F0927562EF900B2A4D6 /* UpdateTransectionViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89F0827562EF900B2A4D6 /* UpdateTransectionViewProtocol.swift */; };
+		76B89F0D275636E100B2A4D6 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89F0C275636E100B2A4D6 /* HistoryVC.swift */; };
+		76B89F0F2756378C00B2A4D6 /* HistoryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89F0E2756378C00B2A4D6 /* HistoryVM.swift */; };
+		76B89F11275637F200B2A4D6 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89F10275637F200B2A4D6 /* HistoryViewModel.swift */; };
+		76B89F142756550500B2A4D6 /* SlipTransectionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89F132756550500B2A4D6 /* SlipTransectionManagerProtocol.swift */; };
+		76B89F172756554300B2A4D6 /* EntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B89F162756554300B2A4D6 /* EntryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +57,7 @@
 		76B89EB42755F3FE00B2A4D6 /* SpitAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpitAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B89EB72755F3FE00B2A4D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76B89EB92755F3FE00B2A4D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		76B89EBB2755F3FE00B2A4D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76B89EBB2755F3FE00B2A4D6 /* AllTransectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTransectionVC.swift; sourceTree = "<group>"; };
 		76B89EBE2755F3FE00B2A4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76B89EC12755F3FE00B2A4D6 /* SpitAppDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpitAppDemo.xcdatamodel; sourceTree = "<group>"; };
 		76B89EC32755F3FF00B2A4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +68,23 @@
 		76B89ED72755F3FF00B2A4D6 /* SpitAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpitAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B89EDB2755F3FF00B2A4D6 /* SpitAppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpitAppDemoUITests.swift; sourceTree = "<group>"; };
 		76B89EDD2755F3FF00B2A4D6 /* SpitAppDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpitAppDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76B89EEC2755F51800B2A4D6 /* AllTransectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTransectionViewModel.swift; sourceTree = "<group>"; };
+		76B89EF02755F57700B2A4D6 /* AddTransactionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionVC.swift; sourceTree = "<group>"; };
+		76B89EF22755F59500B2A4D6 /* AddTransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewModel.swift; sourceTree = "<group>"; };
+		76B89EF42755F87C00B2A4D6 /* UserTransection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTransection.swift; sourceTree = "<group>"; };
+		76B89EF92755F8FE00B2A4D6 /* UserTransectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTransectionModel.swift; sourceTree = "<group>"; };
+		76B89EFB2755F95D00B2A4D6 /* AllTransectionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTransectionVM.swift; sourceTree = "<group>"; };
+		76B89EFD2755F9A700B2A4D6 /* SlipTransectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipTransectionManager.swift; sourceTree = "<group>"; };
+		76B89EFF2755FF9B00B2A4D6 /* AddTransectionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransectionVM.swift; sourceTree = "<group>"; };
+		76B89F012756016400B2A4D6 /* AddTransectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransectionCell.swift; sourceTree = "<group>"; };
+		76B89F022756016400B2A4D6 /* AddTransectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTransectionCell.xib; sourceTree = "<group>"; };
+		76B89F0627560B4800B2A4D6 /* AllTranseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTranseCell.swift; sourceTree = "<group>"; };
+		76B89F0827562EF900B2A4D6 /* UpdateTransectionViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTransectionViewProtocol.swift; sourceTree = "<group>"; };
+		76B89F0C275636E100B2A4D6 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		76B89F0E2756378C00B2A4D6 /* HistoryVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVM.swift; sourceTree = "<group>"; };
+		76B89F10275637F200B2A4D6 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		76B89F132756550500B2A4D6 /* SlipTransectionManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipTransectionManagerProtocol.swift; sourceTree = "<group>"; };
+		76B89F162756554300B2A4D6 /* EntryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +135,8 @@
 		76B89EB62755F3FE00B2A4D6 /* SpitAppDemo */ = {
 			isa = PBXGroup;
 			children = (
-				76B89EB72755F3FE00B2A4D6 /* AppDelegate.swift */,
-				76B89EB92755F3FE00B2A4D6 /* SceneDelegate.swift */,
-				76B89EBB2755F3FE00B2A4D6 /* ViewController.swift */,
+				76B89EEB2755F4C300B2A4D6 /* AppSettings */,
+				76B89EEA2755F4BA00B2A4D6 /* Feature */,
 				76B89EBD2755F3FE00B2A4D6 /* Main.storyboard */,
 				76B89EC32755F3FF00B2A4D6 /* Assets.xcassets */,
 				76B89EC52755F3FF00B2A4D6 /* LaunchScreen.storyboard */,
@@ -128,6 +161,120 @@
 				76B89EDD2755F3FF00B2A4D6 /* SpitAppDemoUITestsLaunchTests.swift */,
 			);
 			path = SpitAppDemoUITests;
+			sourceTree = "<group>";
+		};
+		76B89EEA2755F4BA00B2A4D6 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				76B89EF72755F8B100B2A4D6 /* Transection */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		76B89EEB2755F4C300B2A4D6 /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				76B89EB72755F3FE00B2A4D6 /* AppDelegate.swift */,
+				76B89EB92755F3FE00B2A4D6 /* SceneDelegate.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		76B89EEE2755F53D00B2A4D6 /* AllTransection */ = {
+			isa = PBXGroup;
+			children = (
+				76B89F0A2756362B00B2A4D6 /* Views */,
+				76B89EFB2755F95D00B2A4D6 /* AllTransectionVM.swift */,
+			);
+			path = AllTransection;
+			sourceTree = "<group>";
+		};
+		76B89EEF2755F54F00B2A4D6 /* AddTransection */ = {
+			isa = PBXGroup;
+			children = (
+				76B89F052756016C00B2A4D6 /* Views */,
+				76B89EFF2755FF9B00B2A4D6 /* AddTransectionVM.swift */,
+			);
+			path = AddTransection;
+			sourceTree = "<group>";
+		};
+		76B89EF62755F88800B2A4D6 /* CommonModels */ = {
+			isa = PBXGroup;
+			children = (
+				76B89EF42755F87C00B2A4D6 /* UserTransection.swift */,
+			);
+			path = CommonModels;
+			sourceTree = "<group>";
+		};
+		76B89EF72755F8B100B2A4D6 /* Transection */ = {
+			isa = PBXGroup;
+			children = (
+				76B89F0B2756366500B2A4D6 /* History */,
+				76B89EF82755F8C500B2A4D6 /* Protocols */,
+				76B89EEF2755F54F00B2A4D6 /* AddTransection */,
+				76B89EEE2755F53D00B2A4D6 /* AllTransection */,
+				76B89EF62755F88800B2A4D6 /* CommonModels */,
+				76B89F12275654D700B2A4D6 /* SlipTransectionController */,
+			);
+			path = Transection;
+			sourceTree = "<group>";
+		};
+		76B89EF82755F8C500B2A4D6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				76B89EF92755F8FE00B2A4D6 /* UserTransectionModel.swift */,
+				76B89EEC2755F51800B2A4D6 /* AllTransectionViewModel.swift */,
+				76B89EF22755F59500B2A4D6 /* AddTransactionViewModel.swift */,
+				76B89F0827562EF900B2A4D6 /* UpdateTransectionViewProtocol.swift */,
+				76B89F10275637F200B2A4D6 /* HistoryViewModel.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		76B89F052756016C00B2A4D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76B89EF02755F57700B2A4D6 /* AddTransactionVC.swift */,
+				76B89F012756016400B2A4D6 /* AddTransectionCell.swift */,
+				76B89F022756016400B2A4D6 /* AddTransectionCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76B89F0A2756362B00B2A4D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76B89EBB2755F3FE00B2A4D6 /* AllTransectionVC.swift */,
+				76B89F0627560B4800B2A4D6 /* AllTranseCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76B89F0B2756366500B2A4D6 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				76B89F0C275636E100B2A4D6 /* HistoryVC.swift */,
+				76B89F0E2756378C00B2A4D6 /* HistoryVM.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		76B89F12275654D700B2A4D6 /* SlipTransectionController */ = {
+			isa = PBXGroup;
+			children = (
+				76B89F152756552200B2A4D6 /* Model */,
+				76B89EFD2755F9A700B2A4D6 /* SlipTransectionManager.swift */,
+				76B89F132756550500B2A4D6 /* SlipTransectionManagerProtocol.swift */,
+			);
+			path = SlipTransectionController;
+			sourceTree = "<group>";
+		};
+		76B89F152756552200B2A4D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76B89F162756554300B2A4D6 /* EntryModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +383,7 @@
 			files = (
 				76B89EC72755F3FF00B2A4D6 /* LaunchScreen.storyboard in Resources */,
 				76B89EC42755F3FF00B2A4D6 /* Assets.xcassets in Resources */,
+				76B89F042756016400B2A4D6 /* AddTransectionCell.xib in Resources */,
 				76B89EBF2755F3FE00B2A4D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +409,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B89EBC2755F3FE00B2A4D6 /* ViewController.swift in Sources */,
+				76B89EBC2755F3FE00B2A4D6 /* AllTransectionVC.swift in Sources */,
+				76B89F11275637F200B2A4D6 /* HistoryViewModel.swift in Sources */,
+				76B89EF52755F87C00B2A4D6 /* UserTransection.swift in Sources */,
+				76B89F0727560B4800B2A4D6 /* AllTranseCell.swift in Sources */,
+				76B89EED2755F51800B2A4D6 /* AllTransectionViewModel.swift in Sources */,
+				76B89F002755FF9B00B2A4D6 /* AddTransectionVM.swift in Sources */,
+				76B89F0D275636E100B2A4D6 /* HistoryVC.swift in Sources */,
+				76B89EFA2755F8FE00B2A4D6 /* UserTransectionModel.swift in Sources */,
+				76B89F032756016400B2A4D6 /* AddTransectionCell.swift in Sources */,
+				76B89EF32755F59500B2A4D6 /* AddTransactionViewModel.swift in Sources */,
+				76B89EFC2755F95D00B2A4D6 /* AllTransectionVM.swift in Sources */,
 				76B89EB82755F3FE00B2A4D6 /* AppDelegate.swift in Sources */,
+				76B89EF12755F57700B2A4D6 /* AddTransactionVC.swift in Sources */,
+				76B89F0F2756378C00B2A4D6 /* HistoryVM.swift in Sources */,
+				76B89F172756554300B2A4D6 /* EntryModel.swift in Sources */,
 				76B89EC22755F3FE00B2A4D6 /* SpitAppDemo.xcdatamodeld in Sources */,
+				76B89F0927562EF900B2A4D6 /* UpdateTransectionViewProtocol.swift in Sources */,
+				76B89F142756550500B2A4D6 /* SlipTransectionManagerProtocol.swift in Sources */,
 				76B89EBA2755F3FE00B2A4D6 /* SceneDelegate.swift in Sources */,
+				76B89EFE2755F9A700B2A4D6 /* SlipTransectionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
